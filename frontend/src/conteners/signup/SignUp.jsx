@@ -71,7 +71,7 @@ const SignUp = () => {
       return;
     }
 
-    const res = await fetch("https://mern-project-01-server.onrender.com/register", {
+    const res = await fetch("https://user-registraion-food-recipe.onrender.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -100,7 +100,6 @@ const SignUp = () => {
       window.alert("invalid Registration");
       console.log("invalid Registration");
     } else {
-      window.alert("Registration successful ");
       console.log("Registration successful ");
 
       //  we used navigate instate of history.push

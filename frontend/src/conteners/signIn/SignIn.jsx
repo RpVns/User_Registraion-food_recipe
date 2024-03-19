@@ -23,7 +23,7 @@ const SignIn = () => {
       console.log("clicked")
       e.preventDefault();
 
-      const res = await fetch('https://backend-api-orcin.vercel.app/signin', {
+      const res = await fetch('https://user-registraion-food-recipe.onrender.com/signin', {
         method : "POST",
         headers: {
           "Content-Type": "application/json",
